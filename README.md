@@ -4,7 +4,6 @@ This application will allow a member of a gym to plan a set of group classes tha
 - The user indicates his weight and height to calculate BMI
 - The user can consult a BMI calculation history by period
 - The user can view a graphical summary of his status
--
 Formula to calculate BMI
 BMI = Weight / Height * Height
 The body mass index allows you to know if the weight is adapted to the height, if the member is overweight, obese, or on the contrary too thin. Validated by the WHO, this index is reliable for adults, men and women, between 18 and 65 years old.

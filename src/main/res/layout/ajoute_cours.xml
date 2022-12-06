@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="0dp"
+                android:background="@android:color/background_dark"
+                android:gravity="center"
+                android:text="Name Cours"
+                android:textColor="@android:color/background_light"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                tools:text="enter name" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@android:color/background_dark"
+                android:gravity="center"
+                android:text="Enter Date"
+                android:textColor="@android:color/background_light"
+                android:textSize="23sp" />
+
+            <DatePicker
+                android:layout_width="match_parent"
+                android:id="@+id/datePicker"
+                android:layout_marginTop="0dp"
+                android:layout_height="300dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@android:color/background_dark"
+                android:gravity="center"
+                android:text="Enter departure time"
+                android:textColor="@android:color/background_light"
+                android:textSize="23sp" />
+
+            <TimePicker
+                android:layout_width="match_parent"
+                android:id="@+id/timePicker"
+                android:layout_height="150dp"
+                android:fitsSystemWindows="false" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@android:color/background_dark"
+                android:gravity="center"
+                android:text="Enter End Time"
+                android:textColor="@android:color/background_light"
+                android:textSize="23sp" />
+
+            <TimePicker
+                android:layout_width="match_parent"
+                android:id="@+id/timePicker2"
+                android:layout_height="150dp" />
+
+            <Button
+                android:id="@+id/insertc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Cours" />
+
+            <Button
+                android:id="@+id/retour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Previous" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
